@@ -1,9 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T12:05:36.744Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.9" etag="jujPW1A85Lsyl38zErM1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T12:12:20.360Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qSn7imYjOsyaQGt9eYkO" version="21.6.9" type="github">
   <diagram name="第 1 页" id="lvjsDjDGlsbBSWrAxNPR">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="O628GpaCr1dph_VglOrq-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="O628GpaCr1dph_VglOrq-2" target="O628GpaCr1dph_VglOrq-9" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-2" value="原始值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="O628GpaCr1dph_VglOrq-9" target="O628GpaCr1dph_VglOrq-10" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-4" value="key % 4 == 0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O628GpaCr1dph_VglOrq-3">
+          <mxGeometry x="-0.5414" relative="1" as="geometry">
+            <mxPoint x="-173" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="O628GpaCr1dph_VglOrq-9" target="O628GpaCr1dph_VglOrq-11" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-6" value="key % 4 == 1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O628GpaCr1dph_VglOrq-5">
+          <mxGeometry x="-0.1778" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="O628GpaCr1dph_VglOrq-9" target="O628GpaCr1dph_VglOrq-12" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-8" value="key % 4 == 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O628GpaCr1dph_VglOrq-7">
+          <mxGeometry x="-0.6083" relative="1" as="geometry">
+            <mxPoint x="31" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O628GpaCr1dph_VglOrq-9" target="O628GpaCr1dph_VglOrq-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-21" value="key % 4 == 3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O628GpaCr1dph_VglOrq-17">
+          <mxGeometry x="0.6045" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-9" value="hash 运算" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-10" value="node 1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-11" value="node 2" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-12" value="node 3" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-13" value="0, &lt;font color=&quot;#ff9999&quot;&gt;4&lt;/font&gt; 在 node 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="458" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-14" value="1, &lt;font color=&quot;#ff9999&quot;&gt;5&lt;/font&gt; 在 node 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="458" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-15" value="2&amp;nbsp; 在 node 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="458" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-16" value="node 4" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O628GpaCr1dph_VglOrq-22" value="&lt;font color=&quot;#ff9999&quot;&gt;3&lt;/font&gt;&amp;nbsp; 在 node 4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="458" width="90" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
